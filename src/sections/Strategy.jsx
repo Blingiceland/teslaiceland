@@ -9,16 +9,39 @@ const Strategy = () => {
                     Ákvörðunin: Kveikur
                 </h2>
 
-                <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="grid md:grid-cols-2 gap-12 items-start">
                     {/* Option A: Decline */}
-                    <div className="opacity-50 hover:opacity-100 transition-opacity">
+                    <div className="opacity-70 hover:opacity-100 transition-opacity p-6 rounded-lg border border-transparent hover:border-gray-800">
                         <div className="flex items-center gap-4 mb-4">
                             <XCircle className="text-gray-500 w-8 h-8" />
-                            <h3 className="text-2xl font-bold text-gray-500">Mæta Ekki</h3>
+                            <h3 className="text-2xl font-bold text-gray-400">Mæta Ekki</h3>
                         </div>
-                        <p className="text-gray-400 mb-4">
-                            Hætta á að umræðan verði einhliða. Þögn er sjaldnast hlutlaus – hún er túlkuð sem varnartákn eða skortur á ábyrgð (Coombs, 2007).
+                        <p className="text-gray-400 mb-6 italic">
+                            "No comment" er líka skilaboð.
                         </p>
+                        <ul className="space-y-4 text-gray-500">
+                            <li className="flex gap-3">
+                                <span className="font-bold text-red-900/50">1.</span>
+                                <span>
+                                    <strong className="block text-gray-400 font-normal">Missum stjórn á frásögninni:</strong>
+                                    Fjölmiðlar munu fylla upp í tómarúmið með vangaveltum og viðtölum við óánægða aðila.
+                                </span>
+                            </li>
+                            <li className="flex gap-3">
+                                <span className="font-bold text-red-900/50">2.</span>
+                                <span>
+                                    <strong className="block text-gray-400 font-normal">Sektarkennd:</strong>
+                                    Þögn er í dag túlkuð sem samþykki á ásökunum eða tilraun til að fela eitthvað (Coombs, 2007).
+                                </span>
+                            </li>
+                            <li className="flex gap-3">
+                                <span className="font-bold text-red-900/50">3.</span>
+                                <span>
+                                    <strong className="block text-gray-400 font-normal">Innra vantraust:</strong>
+                                    Ef starfsfólk upplifir að yfirstjórn þori ekki að svara fyrir sig, grefur það undan stoltinu af því að vinna hjá Tesla.
+                                </span>
+                            </li>
+                        </ul>
                     </div>
 
                     {/* Option B: ATTEND (Selected) */}
