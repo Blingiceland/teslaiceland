@@ -4,6 +4,7 @@ import Hero from './sections/Hero';
 import Situation from './sections/Situation';
 import Stakeholders from './sections/Stakeholders';
 import Strategy from './sections/Strategy';
+import Report from './sections/Report';
 import References from './sections/References';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
                 <Situation />
                 <Stakeholders />
                 <Strategy />
+                <Report />
             </main>
             <References />
         </div>
