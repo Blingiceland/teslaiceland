@@ -9,3 +9,35 @@ body {
   color: #ffffff;
   font-family: 'Inter', sans-serif;
 }
+
+/* Print-friendly styles for PDF download */
+.print-mode {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+  padding: 20px !important;
+}
+
+.print-mode * {
+  color: #111111 !important;
+  border-color: #cccccc !important;
+  background-color: transparent !important;
+}
+
+.print-mode h2,
+.print-mode h3,
+.print-mode h4,
+.print-mode strong {
+  color: #000000 !important;
+}
+
+.print-mode .border-l-4 {
+  border-left-color: #cc0000 !important;
+}
+
+.print-mode .border {
+  border-color: #dddddd !important;
+}
+
+.print-mode em {
+  color: #333333 !important;
+}
